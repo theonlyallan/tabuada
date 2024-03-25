@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background:  white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+ select {
+     text-align: center;
+     /* para Firefox */
+     text-align-last: center;
+     /* para Chrome */
+     -webkit-appearance: none;
+     /* remove as setas do dropdown no Chrome */
+     -moz-appearance: none;
+     /* remove as setas do dropdown no Firefox */
+     appearance: none;
+     /* remove as setas do dropdown em outros navegadores */
+     padding: 5px;
+     /* ajuste o espaçamento conforme necessário */
+     width: 100%;
+     /* opcional: define a largura do select */
+     box-sizing: border-box;
+     /* inclui o padding na largura total */
+ }
